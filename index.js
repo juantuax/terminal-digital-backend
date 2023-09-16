@@ -51,6 +51,8 @@ require("./app/routes/term.routes")(app);
 require("./app/routes/version.routes")(app);
 require("./app/routes/switch.routes")(app);
 require("./app/routes/session.routes")(app);
+require("./app/routes/payment.routes")(app);
+require("./app/routes/bankAccount.routes")(app);
 
 const PORT = process.env.PORT || 5000;
 http.listen(PORT, () => {
